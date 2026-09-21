@@ -41,6 +41,7 @@ venv/
 .venv/
 .release-venv*/
 **/.release-venv*/
+.verify-venv/
 
 # OS
 .DS_Store

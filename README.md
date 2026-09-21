@@ -50,7 +50,7 @@ Requirements: Python 3.11+ is recommended.
 cd dialectica-agent
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt -r requirements-dev.txt
 cp .env.example .env
 python src/main.py --once
 ```

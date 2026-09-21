@@ -1,0 +1,14 @@
+aiohttp
+sqlalchemy
+pydantic
+python-dotenv
+web3
+openai
+loguru
+PyYAML
+cryptography
+
+psycopg2-binary
+tenacity
+asyncpg
+pytest==8.0.0

@@ -1,0 +1,62 @@
+# Secrets and local configuration
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+wallet.json
+wallets/
+secrets/
+credentials/
+
+# Local data, logs, exports, and backups
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+*.dump
+*.sql.gz
+*.bak
+*.backup
+*.zip
+dialectica_bot_delivery/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+.release-venv*/
+**/.release-venv*/
+
+# OS
+.DS_Store
+**/.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
